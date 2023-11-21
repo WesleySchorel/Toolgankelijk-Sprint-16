@@ -1,38 +1,48 @@
-# create-svelte
+# Vervoerregio Amsterdam | Sprint 16
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Live link: [toolgankelijk.netlify.app/](https://toolgankelijk.netlify.app/)
 
-## Creating a project
+## Inhoudsopgave
 
-If you're seeing this, you've probably already done this step. Congrats!
+  * [Beschrijving](#beschrijving)
+  * [Kenmerken](#kenmerken)
+  * [Installatie](#installatie)
+  * [Bronnen](#bronnen)
+  * [Licentie](#licentie)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Beschrijving
 
-# create a new project in my-app
-npm create svelte@latest my-app
+De Toolgankelijkheid website voor Vervoerregio Amsterdam waarmee medewerkers intern hun partners kunnen controleren op de toegankelijkheid van hun websites. 
+
+![image](https://github.com/WesleySchorel/lose-your-head-the-client-case/assets/112857487/3044aca6-4b97-42b7-bc4d-501c73ca8a4a)
+
+## Kenmerken
+
+Dit project is ontwikkeld door middel van Sveltekit. De inhoud wordt opgehaald door middel van een query uit Hygraph. De code wordt gehost op github en vervolgens door middel van Vercel live gezet. De code wordt gehost op GitHub. De live-versie van de website is beschikbaar op Netlify. Netlify is geïntegreerd met de GitHub Repository en genereert automatisch een nieuwe versie van de applicatie bij elke update op de main.
+
+Wij hebben de volgende technieken en technologiën gebruikt:
+
+* Svelte
+* Sveltekit
+* Hygraph
+* HTML
+* CSS
+* JS
+* Figma
+
+## Installatie
+```
+1. Clone de repository
+2. Open de repo via github desktop
+3. Installeer npm packages d.m.v. npm install
+4. Run de localhost d.m.v. npm run dev
 ```
 
-## Developing
+## Bronnen
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+[FDND agency](https://github.com/fdnd-agency/vervoerregio-amsterdam) <br>
+[Hygraph mutation](https://hygraph.com/docs/api-reference/content-api/mutations) <br>
 
-```bash
-npm run dev
+## Licentie
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+This project is licensed under the terms of the [MIT license](./LICENSE).
