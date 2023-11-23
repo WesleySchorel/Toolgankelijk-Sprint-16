@@ -1,1 +1,8 @@
-<h1>Toolboard</h1>
+<script>
+	import { Checklist, Sidebar } from '$lib/index.js';
+</script>
+
+<section>
+	<Checklist />
+	<Sidebar />
+</section>
