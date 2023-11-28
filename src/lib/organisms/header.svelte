@@ -2,7 +2,7 @@
 	import logo from "$lib/assets/vervoerregio_amsterdam_logo.svg";
 	import informationIcon from "$lib/assets/information_icon.svg";
 	import darkmodeIcon from "$lib/assets/dark_mode_icon.svg";
-	import BreadCrumbs from "./bread-crumbs.svelte";
+	import { BreadCrumbs } from '$lib/index.js';
 
 	export let params;
 	export let partners;
