@@ -1,7 +1,7 @@
 <script>
 	export let data;
 
-	import { Partner, Heading,  } from 'toolgankelijk-component-library';
+	import { Partner, Heading} from 'toolgankelijk-component-library';
 
 	let heading = { titel: 'Partners overzicht' };
 
