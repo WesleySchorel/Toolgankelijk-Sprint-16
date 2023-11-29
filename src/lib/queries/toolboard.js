@@ -1,5 +1,5 @@
-export default function getQueryToolboard(gql, slugUrl, principeSlug){
-    return gql`
+export default function getQueryToolboard(gql, slugUrl, principeSlug) {
+	return gql`
     query Toolboard {
         url(where: {slug: "${slugUrl}"}) {
           id
@@ -46,5 +46,5 @@ export default function getQueryToolboard(gql, slugUrl, principeSlug){
           slug
         }
       }
-      `
+      `;
 }

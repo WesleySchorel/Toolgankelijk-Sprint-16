@@ -1,6 +1,5 @@
 <script>
-	import { Heading} from 'toolgankelijk-component-library';
-    import Toolboard from '$lib/components/Toolboard.svelte';
+	import { Heading, Toolboard } from 'toolgankelijk-component-library';
 	export let data;
 
 	$: heading = {
@@ -9,14 +8,10 @@
 		url: data.urlData.url.slug
 	};
 
-    
-    $: url = data.toolboardData.url;
-    $: principe = data.toolboardData.principe;
-    $: principes = data.toolboardData.principes;
- 
-
+	$: url = data.toolboardData.url;
+	$: principe = data.toolboardData.principe;
+	$: principes = data.toolboardData.principes;
 </script>
 
 <Heading {heading} />
-<Toolboard {url} {principe} {principes}/>
-
+<Toolboard {url} {principe} {principes} />
