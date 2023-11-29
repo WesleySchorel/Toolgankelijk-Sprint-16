@@ -1,5 +1,5 @@
 <script>
-	import { Heading, Website} from 'toolgankelijk-component-library';
+	import { Heading, Website } from 'toolgankelijk-component-library';
     import { page } from '$app/stores';
 
     export let data;
@@ -10,7 +10,7 @@
     };
 
     // data voor websites component
-    $: websites = data.websitesData.website.urls;
+    $: website = data.websitesData.website.urls;
     $: overzicht = data.websitesData.website;
     $: params = $page.params.websiteUID;
 </script>
@@ -33,7 +33,7 @@
 </section>
 
 <section class="website-list">
-    {#each websites as website}
+    {#each website as website}
         <Website {website} {overzicht} {params} />
     {/each}
 </section>

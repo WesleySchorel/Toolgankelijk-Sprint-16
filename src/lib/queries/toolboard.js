@@ -19,6 +19,9 @@ export default function getQueryToolboard(gql, slugUrl, principeSlug){
           }
           richtlijnen {
             titel
+            uitleg {
+              html
+            }
             succescriteria {
               id
               titel

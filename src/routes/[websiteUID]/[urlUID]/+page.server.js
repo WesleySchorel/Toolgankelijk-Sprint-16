@@ -12,6 +12,9 @@ export const load = async ({ params }) => {
 	const urlData = await hygraph.request(queryUrl);
 	const principesData = await hygraph.request(queryPrincipes);
 
+    console.log(urlUID);
+    console.log(websiteUID);
+
 	if (urlData.url.website.slug === websiteUID) return {
 		principesData,
 		urlData,

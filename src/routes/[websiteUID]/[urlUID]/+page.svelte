@@ -1,12 +1,17 @@
 <script>
-	import { Heading, Website} from 'toolgankelijk-component-library';
-    import { page } from '$app/stores';
+	import { page } from '$app/stores' ;
+	import { Heading} from 'toolgankelijk-component-library';
 
-    export let data;
+	export let data;
 
 	console.log(data)
 
-    $: heading = {titel: data.websitesData.website.titel, homepage: data.urlData.url.url, url: data.urlData.url.slug}
+    $: heading = {
+        titel: data.websitesData.website.titel, 
+        homepage: data.urlData.url.url, 
+        url: data.urlData.url.slug
+    }
+    
 	const principes = data.principesData.principes
 </script>
 
