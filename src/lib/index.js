@@ -8,6 +8,7 @@ export { default as Heading } from './molecules/heading.svelte'
 export { default as Partner } from './molecules/Partner.svelte'
 export { default as Website } from './molecules/Website.svelte'
 
+export { default as PrincipeDashboard } from './organisms/Principedashboard.svelte'
 export { default as Checklist } from './organisms/Checklist.svelte'
 export { default as Sidebar } from './organisms/Sidebar.svelte'
 export { default as Header } from './organisms/header.svelte'
