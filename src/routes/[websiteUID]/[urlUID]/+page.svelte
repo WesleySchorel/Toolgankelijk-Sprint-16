@@ -1,11 +1,11 @@
 <script>
-	import { Heading, Website, PrincipeDashboard} from 'toolgankelijk-component-library';
+	import { Heading, Website} from 'toolgankelijk-component-library';
     import { page } from '$app/stores';
 
 
     export let data;
 
-	console.log(data)
+	// console.log(data)
 
     $: heading = {
         titel: data.websitesData.website.titel, 
@@ -13,7 +13,7 @@
         url: data.urlData.url.slug
     }
     
-	const principes = data.principesData.principes
+	// const principes = data.principesData.principes
 </script>
 
 <Heading {heading} />
@@ -54,7 +54,7 @@
 </section>
 
 
-<PrincipeDashboard />
+<!-- <PrincipeDashboard /> -->
 
 <style>
 
