@@ -21,6 +21,6 @@
 	"dependencies": {
 		"graphql": "^16.8.1",
 		"graphql-request": "^6.1.0",
-		"toolgankelijk-component-library": "^0.0.10"
+		"toolgankelijk-component-library": "^0.0.11"
 	}
 }
